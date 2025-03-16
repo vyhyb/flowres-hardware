@@ -1,19 +1,18 @@
 # Flowres - Hardware
 
-This repository serves as a model and knowledge base for the hardware
-of the mostly printed flow resistivity measurement setup.
+This vault serves as a knowledge base for the hardware of the mostly printed flow resistivity measurement setup. The outline of the vault is given in [Navigation](00_Navigation.md).
+
+$$\sqrt{\frac{x}{y^2}}$$
+
+![](Attachments/model_v1.png)
+
+
+The 3D printed parts are modelled in [FreeCAD](https://www.freecadweb.org/), a free and open-source
+parametric 3D CAD software. The models are stored in the `models` directory of the [`flowres-hardware`](https://www.github.com/vyhyb/flowres-hardware) repository on GitHub
 
 The software part of the project can be found [here](https://www.github.com/vyhyb/flowres).
 
-The hardware is modelled in [FreeCAD](https://www.freecadweb.org/), a free and open-source
-parametric 3D CAD software. The models are stored in the `models` directory.
-
-The directory `vault` contains the Obsidian vault with the knowledge base of the project,
-including the sensors, electronics, and other components used in the project.
-
 This vault is exported as a website and can be viewed [here](https://vyhyb.github.io/flowres-hardware/).
-
-The `docs` directory contains the exported website of the vault.
 
 ## Author
 
