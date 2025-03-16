@@ -1,15 +1,25 @@
 {
   "vaultName": "Flowres - Hardware",
-  "lastExport": 1742129806084,
+  "lastExport": 1742130457613,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
     "Attachments/model_v1.png",
-    "00_Navigation.md",
-    "01aa Sensirion SDP610-25PA.md",
-    "01ab Sensirion SDP810-125PA.md",
+    "00aa Analog flow sensors.md",
+    "00ab Digital flow sensors.md",
+    "01aa Digital differential pressure sensors.md",
+    "01aa01 Sensirion SDP610-25PA.md",
+    "01aa02 Sensirion SDP810-125PA.md",
+    "02aa Compressor.md",
+    "02ab DC ventilator.md",
+    "02ac Water tank.md",
+    "03aa Electromagnetic valve.md",
+    "03ab PWM ventilator operation.md",
+    "04aa Analog to digital conversion.md",
+    "04ab RaspberryPi GPIO header utilization.md",
+    "99_Navigation.md",
     "index.md",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
@@ -119,19 +129,13 @@
   ],
   "fileInfo": {
     "Attachments/model_v1.png": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 32140,
       "exportedPath": "attachments/model_v1.png",
       "dependencies": []
     },
-    "00_Navigation.md": {
-      "modifiedTime": 1742129806084,
-      "sourceSize": 442,
-      "exportedPath": "00_navigation.html",
-      "dependencies": []
-    },
     "index.md": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 2033,
       "exportedPath": "index.html",
       "dependencies": [
@@ -139,327 +143,393 @@
       ]
     },
     "attachments/model_v1.png": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 32140,
       "exportedPath": "attachments/model_v1.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1742129806084,
-      "sourceSize": 2973,
+      "modifiedTime": 1742130457613,
+      "sourceSize": 6435,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1742129806084,
-      "sourceSize": 492,
+      "modifiedTime": 1742130457613,
+      "sourceSize": 1388,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 137466,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 274,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1742129806084,
+      "modifiedTime": 1742130457613,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
-    "01aa Sensirion SDP610-25PA.md": {
-      "modifiedTime": 1742129806084,
-      "sourceSize": 0,
-      "exportedPath": "01aa-sensirion-sdp610-25pa.html",
+    "00aa Analog flow sensors.md": {
+      "modifiedTime": 1742130457613,
+      "sourceSize": 246,
+      "exportedPath": "00aa-analog-flow-sensors.html",
       "dependencies": []
     },
-    "01ab Sensirion SDP810-125PA.md": {
-      "modifiedTime": 1742129806084,
+    "00ab Digital flow sensors.md": {
+      "modifiedTime": 1742130457613,
       "sourceSize": 0,
-      "exportedPath": "01ab-sensirion-sdp810-125pa.html",
+      "exportedPath": "00ab-digital-flow-sensors.html",
+      "dependencies": []
+    },
+    "01aa Digital differential pressure sensors.md": {
+      "modifiedTime": 1742130457613,
+      "sourceSize": 70,
+      "exportedPath": "01aa-digital-differential-pressure-sensors.html",
+      "dependencies": []
+    },
+    "01aa01 Sensirion SDP610-25PA.md": {
+      "modifiedTime": 1742130457613,
+      "sourceSize": 0,
+      "exportedPath": "01aa01-sensirion-sdp610-25pa.html",
+      "dependencies": []
+    },
+    "01aa02 Sensirion SDP810-125PA.md": {
+      "modifiedTime": 1742130457613,
+      "sourceSize": 0,
+      "exportedPath": "01aa02-sensirion-sdp810-125pa.html",
+      "dependencies": []
+    },
+    "02aa Compressor.md": {
+      "modifiedTime": 1742130457613,
+      "sourceSize": 0,
+      "exportedPath": "02aa-compressor.html",
+      "dependencies": []
+    },
+    "02ab DC ventilator.md": {
+      "modifiedTime": 1742130457613,
+      "sourceSize": 0,
+      "exportedPath": "02ab-dc-ventilator.html",
+      "dependencies": []
+    },
+    "02ac Water tank.md": {
+      "modifiedTime": 1742130457613,
+      "sourceSize": 0,
+      "exportedPath": "02ac-water-tank.html",
+      "dependencies": []
+    },
+    "03aa Electromagnetic valve.md": {
+      "modifiedTime": 1742130457613,
+      "sourceSize": 0,
+      "exportedPath": "03aa-electromagnetic-valve.html",
+      "dependencies": []
+    },
+    "03ab PWM ventilator operation.md": {
+      "modifiedTime": 1742130457613,
+      "sourceSize": 0,
+      "exportedPath": "03ab-pwm-ventilator-operation.html",
+      "dependencies": []
+    },
+    "04aa Analog to digital conversion.md": {
+      "modifiedTime": 1742130457613,
+      "sourceSize": 237,
+      "exportedPath": "04aa-analog-to-digital-conversion.html",
+      "dependencies": []
+    },
+    "04ab RaspberryPi GPIO header utilization.md": {
+      "modifiedTime": 1742130457613,
+      "sourceSize": 0,
+      "exportedPath": "04ab-raspberrypi-gpio-header-utilization.html",
+      "dependencies": []
+    },
+    "99_Navigation.md": {
+      "modifiedTime": 1742130457613,
+      "sourceSize": 453,
+      "exportedPath": "99_navigation.html",
       "dependencies": []
     }
   }

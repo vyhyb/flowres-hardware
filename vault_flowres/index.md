@@ -1,6 +1,6 @@
 # Flowres - Hardware
 
-This vault serves as a knowledge base for the hardware of the mostly printed flow resistivity measurement setup. The outline of the vault is given in [Navigation](00_Navigation.md).
+This vault serves as a knowledge base for the hardware of the mostly printed flow resistivity measurement setup. The outline of the vault is given in [Navigation](99_Navigation.md).
 
 ![model_v1_png](Attachments/model_v1.png)
 

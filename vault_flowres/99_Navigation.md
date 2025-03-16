@@ -6,8 +6,7 @@
 - [[00ab Digital flow sensors]]
 ## Pressure sensors
 
-- [[01aa Sensirion SDP610-25PA]]
-- [[01ab Sensirion SDP810-125PA]]
+- [[01aa Digital differential pressure sensors]]
 
 ## Flow sources
 
@@ -19,8 +18,7 @@
 - [[03aa Electromagnetic valve]]
 - [[03ab PWM ventilator operation]]
 
-## AD convertors
-
-- [[04aa I2C operated ADC]]
-- [[04ab ]]
 ## Computer/interface side
+
+- [[04aa Analog to digital conversion]]
+- [[04ab RaspberryPi GPIO header utilization]]
