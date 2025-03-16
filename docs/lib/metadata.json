@@ -1,16 +1,20 @@
 {
   "vaultName": "Flowres - Hardware",
-  "lastExport": 1742143208593,
+  "lastExport": 1742146057727,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
     "Attachments/datasheets/en_d6f_series-1128136.pdf",
+    "Attachments/datasheets/SDP600.pdf",
+    "Attachments/datasheets/SDP800.pdf",
     "Attachments/00aa01 Omron D6F-P picture.png",
     "Attachments/00aa01 Omron D6F-P picture-1.png",
     "Attachments/00aa02 Omron D6F-A3 characteristics.png",
     "Attachments/00aa02 Omron D6F-A3 output voltages.png",
+    "Attachments/01aa01 Sensirion SDP610-25PA.png",
+    "Attachments/01aa02 Sensirion SDP810-125PA.png",
     "Attachments/model_v1.png",
     "Attachments/Omron D6F-P characteristics.png",
     "Attachments/Omron D6F-P output voltages.png",
@@ -28,6 +32,7 @@
     "04aa Analog to digital conversion.md",
     "04ab RaspberryPi GPIO header utilization.md",
     "99_Navigation.md",
+    "04aa01 ADS1115 chip (I2C).md",
     "index.md",
     "00aa02 Omron D6F-A3.md",
     "00aa01 Omron D6F-P.md",
@@ -82,7 +87,13 @@
     "lib/styles/other-plugins.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/main-styles.css",
-    "attachments/model_v1.png"
+    "attachments/model_v1.png",
+    "attachments/00aa01-omron-d6f-p-picture.png",
+    "attachments/00aa02-omron-d6f-a3-output-voltages.png",
+    "attachments/00aa02-omron-d6f-a3-characteristics.png",
+    "attachments/00aa01-omron-d6f-p-picture-1.png",
+    "attachments/omron-d6f-p-output-voltages.png",
+    "attachments/omron-d6f-p-characteristics.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -139,13 +150,13 @@
   ],
   "fileInfo": {
     "Attachments/model_v1.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 32140,
       "exportedPath": "attachments/model_v1.png",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 2033,
       "exportedPath": "index.html",
       "dependencies": [
@@ -153,445 +164,449 @@
       ]
     },
     "attachments/model_v1.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 32140,
       "exportedPath": "attachments/model_v1.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1742143208593,
-      "sourceSize": 11787,
+      "modifiedTime": 1742146057727,
+      "sourceSize": 13634,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1742143208593,
-      "sourceSize": 1623,
+      "modifiedTime": 1742146057727,
+      "sourceSize": 1750,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 137466,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 274,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "00aa Analog flow sensors.md": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 422,
       "exportedPath": "00aa-analog-flow-sensors.html",
       "dependencies": []
     },
     "00ab Digital flow sensors.md": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 192,
       "exportedPath": "00ab-digital-flow-sensors.html",
       "dependencies": []
     },
     "01aa Digital differential pressure sensors.md": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 113,
       "exportedPath": "01aa-digital-differential-pressure-sensors.html",
       "dependencies": []
     },
     "01aa01 Sensirion SDP610-25PA.md": {
-      "modifiedTime": 1742143208593,
-      "sourceSize": 0,
+      "modifiedTime": 1742146057727,
+      "sourceSize": 2843,
       "exportedPath": "01aa01-sensirion-sdp610-25pa.html",
-      "dependencies": []
+      "dependencies": [
+        "attachments/01aa01-sensirion-sdp610-25pa.png"
+      ]
     },
     "01aa02 Sensirion SDP810-125PA.md": {
-      "modifiedTime": 1742143208593,
-      "sourceSize": 0,
+      "modifiedTime": 1742146057727,
+      "sourceSize": 3816,
       "exportedPath": "01aa02-sensirion-sdp810-125pa.html",
-      "dependencies": []
+      "dependencies": [
+        "attachments/01aa02-sensirion-sdp810-125pa.png"
+      ]
     },
     "02aa Compressor.md": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 0,
       "exportedPath": "02aa-compressor.html",
       "dependencies": []
     },
     "02ab DC ventilator.md": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 0,
       "exportedPath": "02ab-dc-ventilator.html",
       "dependencies": []
     },
     "02ac Water tank.md": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 0,
       "exportedPath": "02ac-water-tank.html",
       "dependencies": []
     },
     "03aa Electromagnetic valve.md": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 0,
       "exportedPath": "03aa-electromagnetic-valve.html",
       "dependencies": []
     },
     "03ab PWM ventilator operation.md": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 0,
       "exportedPath": "03ab-pwm-ventilator-operation.html",
       "dependencies": []
     },
     "04aa Analog to digital conversion.md": {
-      "modifiedTime": 1742143208593,
-      "sourceSize": 237,
+      "modifiedTime": 1742146057727,
+      "sourceSize": 268,
       "exportedPath": "04aa-analog-to-digital-conversion.html",
       "dependencies": []
     },
     "04ab RaspberryPi GPIO header utilization.md": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 0,
       "exportedPath": "04ab-raspberrypi-gpio-header-utilization.html",
       "dependencies": []
     },
     "99_Navigation.md": {
-      "modifiedTime": 1742143208593,
-      "sourceSize": 453,
+      "modifiedTime": 1742146057727,
+      "sourceSize": 479,
       "exportedPath": "99_navigation.html",
       "dependencies": []
     },
     "Attachments/datasheets/en_d6f_series-1128136.pdf": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 10617376,
       "exportedPath": "attachments/datasheets/en_d6f_series-1128136.pdf",
       "dependencies": []
     },
     "Attachments/00aa01 Omron D6F-P picture.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 43616,
       "exportedPath": "attachments/00aa01-omron-d6f-p-picture.png",
       "dependencies": []
     },
     "Attachments/00aa01 Omron D6F-P picture-1.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 65216,
       "exportedPath": "attachments/00aa01-omron-d6f-p-picture-1.png",
       "dependencies": []
     },
     "Attachments/00aa02 Omron D6F-A3 characteristics.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 247350,
       "exportedPath": "attachments/00aa02-omron-d6f-a3-characteristics.png",
       "dependencies": []
     },
     "Attachments/00aa02 Omron D6F-A3 output voltages.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 76232,
       "exportedPath": "attachments/00aa02-omron-d6f-a3-output-voltages.png",
       "dependencies": []
     },
     "Attachments/Omron D6F-P characteristics.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 269719,
       "exportedPath": "attachments/omron-d6f-p-characteristics.png",
       "dependencies": []
     },
     "Attachments/Omron D6F-P output voltages.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 130326,
       "exportedPath": "attachments/omron-d6f-p-output-voltages.png",
       "dependencies": []
     },
     "Templates/Basic.md": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 175,
       "exportedPath": "templates/basic.html",
       "dependencies": []
     },
     "00aa02 Omron D6F-A3.md": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 1058,
       "exportedPath": "00aa02-omron-d6f-a3.html",
       "dependencies": [
@@ -601,8 +616,8 @@
       ]
     },
     "00aa01 Omron D6F-P.md": {
-      "modifiedTime": 1742143208593,
-      "sourceSize": 1587,
+      "modifiedTime": 1742146057727,
+      "sourceSize": 6617,
       "exportedPath": "00aa01-omron-d6f-p.html",
       "dependencies": [
         "attachments/00aa01-omron-d6f-p-picture-1.png",
@@ -611,39 +626,81 @@
       ]
     },
     "attachments/00aa01-omron-d6f-p-picture.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 43616,
       "exportedPath": "attachments/00aa01-omron-d6f-p-picture.png",
       "dependencies": []
     },
     "attachments/00aa02-omron-d6f-a3-output-voltages.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 76232,
       "exportedPath": "attachments/00aa02-omron-d6f-a3-output-voltages.png",
       "dependencies": []
     },
     "attachments/00aa02-omron-d6f-a3-characteristics.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 247350,
       "exportedPath": "attachments/00aa02-omron-d6f-a3-characteristics.png",
       "dependencies": []
     },
     "attachments/00aa01-omron-d6f-p-picture-1.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 65216,
       "exportedPath": "attachments/00aa01-omron-d6f-p-picture-1.png",
       "dependencies": []
     },
     "attachments/omron-d6f-p-output-voltages.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 130326,
       "exportedPath": "attachments/omron-d6f-p-output-voltages.png",
       "dependencies": []
     },
     "attachments/omron-d6f-p-characteristics.png": {
-      "modifiedTime": 1742143208593,
+      "modifiedTime": 1742146057727,
       "sourceSize": 269719,
       "exportedPath": "attachments/omron-d6f-p-characteristics.png",
+      "dependencies": []
+    },
+    "Attachments/datasheets/SDP600.pdf": {
+      "modifiedTime": 1742146057727,
+      "sourceSize": 1058684,
+      "exportedPath": "attachments/datasheets/sdp600.pdf",
+      "dependencies": []
+    },
+    "Attachments/datasheets/SDP800.pdf": {
+      "modifiedTime": 1742146057727,
+      "sourceSize": 731702,
+      "exportedPath": "attachments/datasheets/sdp800.pdf",
+      "dependencies": []
+    },
+    "Attachments/01aa01 Sensirion SDP610-25PA.png": {
+      "modifiedTime": 1742146057727,
+      "sourceSize": 234248,
+      "exportedPath": "attachments/01aa01-sensirion-sdp610-25pa.png",
+      "dependencies": []
+    },
+    "Attachments/01aa02 Sensirion SDP810-125PA.png": {
+      "modifiedTime": 1742146057727,
+      "sourceSize": 168873,
+      "exportedPath": "attachments/01aa02-sensirion-sdp810-125pa.png",
+      "dependencies": []
+    },
+    "04aa01 ADS1115 chip (I2C).md": {
+      "modifiedTime": 1742146057727,
+      "sourceSize": 10299,
+      "exportedPath": "04aa01-ads1115-chip-(i2c).html",
+      "dependencies": []
+    },
+    "attachments/01aa01-sensirion-sdp610-25pa.png": {
+      "modifiedTime": 1742146057727,
+      "sourceSize": 234248,
+      "exportedPath": "attachments/01aa01-sensirion-sdp610-25pa.png",
+      "dependencies": []
+    },
+    "attachments/01aa02-sensirion-sdp810-125pa.png": {
+      "modifiedTime": 1742146057727,
+      "sourceSize": 168873,
+      "exportedPath": "attachments/01aa02-sensirion-sdp810-125pa.png",
       "dependencies": []
     }
   }

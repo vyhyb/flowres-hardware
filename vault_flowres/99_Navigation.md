@@ -13,6 +13,7 @@
 - [[02aa Compressor]]
 - [[02ab DC ventilator]]
 - [[02ac Water tank]]
+
 ## Flow actuators
 
 - [[03aa Electromagnetic valve]]
@@ -22,3 +23,7 @@
 
 - [[04aa Analog to digital conversion]]
 - [[04ab RaspberryPi GPIO header utilization]]
+
+## 3D printed parts
+
+- 

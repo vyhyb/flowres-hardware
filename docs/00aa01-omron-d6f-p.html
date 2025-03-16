@@ -240,9 +240,150 @@ mjx-c.mjx-c2032::before { padding: 0.56em 0.275em 0px 0px; content: "′"; }
 <li data-line="0" dir="auto">102 mm side - 0.3 l/min</li>
 <li data-line="1" dir="auto">45 mm side - 0.06 l/min<br>
 Given the 5% FS accuracy, the 0-1 l/min variant gives the error of <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mo class="mjx-n"><mjx-c class="mjx-cB1"></mjx-c></mjx-mo><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c2E"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c35"></mjx-c></mjx-mn><mjx-mstyle><mjx-mspace style="width: 0.278em;"></mjx-mspace></mjx-mstyle><mjx-texatom texclass="ORD"><mjx-mi class="mjx-n"><mjx-c class="mjx-c6C"></mjx-c></mjx-mi><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c2F"></mjx-c></mjx-mo></mjx-texatom><mjx-mi class="mjx-n"><mjx-c class="mjx-c6D"></mjx-c><mjx-c class="mjx-c69"></mjx-c><mjx-c class="mjx-c6E"></mjx-c></mjx-mi></mjx-texatom></mjx-math></mjx-container></span>, which is already probably too much for the smaller mentioned sample size. On the other hand, the measurement can consist of many sequential takes at different flow rates (as implemented in the <a data-tooltip-position="top" aria-label="https://github.com/vyhyb/flowres/tree/main" rel="noopener nofollow" class="external-link" href="https://github.com/vyhyb/flowres/tree/main" target="_blank">flowres</a> package), which gives a more valuable information about the sample behavior. Based on such argument, the 0-1 l/min variant is probably more suited.</li>
-</ul></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Datasheet" dir="auto" class="heading" id="Datasheet"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Datasheet</h2><div class="heading-children"><div class="el-p"><p dir="auto"><a data-tooltip-position="top" aria-label="Attachments/datasheets/en_d6f_series-1128136.pdf" data-href="Attachments/datasheets/en_d6f_series-1128136.pdf" href="attachments/datasheets/en_d6f_series-1128136.pdf" class="internal-link" target="_self" rel="noopener nofollow">Datasheet</a></p></div><div class="mod-footer mod-ui"></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+</ul></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Datasheet" dir="auto" class="heading" id="Datasheet"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Datasheet</h2><div class="heading-children"><div class="el-p"><p dir="auto"><a data-tooltip-position="top" aria-label="Attachments/datasheets/en_d6f_series-1128136.pdf" data-href="Attachments/datasheets/en_d6f_series-1128136.pdf" href="attachments/datasheets/en_d6f_series-1128136.pdf" class="internal-link" target="_self" rel="noopener nofollow">Datasheet</a></p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Minimal code example" dir="auto" class="heading" id="Minimal_code_example"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Minimal code example</h2><div class="heading-children"><div class="el-p"><p dir="auto">Given the <a data-tooltip-position="top" aria-label="https://claude.ai/" rel="noopener nofollow" class="external-link" href="https://claude.ai/" target="_blank">Claude AI</a>. Should be debugged for later use. Features the <a data-href="04aa01 ADS1115 chip (I2C)" href="04aa01-ads1115-chip-(i2c).html" class="internal-link" target="_self" rel="noopener nofollow">04aa01 ADS1115 chip (I2C)</a> and <a data-href="01aa02 Sensirion SDP810-125PA" href="01aa02-sensirion-sdp810-125pa.html" class="internal-link" target="_self" rel="noopener nofollow">01aa02 Sensirion SDP810-125PA</a>.</p></div><div class="el-pre"><pre class="language-python" tabindex="0"><code data-line="0" class="language-python is-loaded"><span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
+<span class="token keyword">from</span> scipy <span class="token keyword">import</span> interpolate
+<span class="token keyword">import</span> time
+<span class="token keyword">from</span> ads1115 <span class="token keyword">import</span> ADS1115
+<span class="token keyword">from</span> sdp810 <span class="token keyword">import</span> SDP810
+
+<span class="token keyword">class</span> <span class="token class-name">FlowSensorConverter</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">"""
+    Convert voltage readings from Omron D6F-P flow sensor to flow rates
+    using spline interpolation of calibration values.
+    """</span>
+    
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> calibration_dict<span class="token punctuation">,</span> interpolation_kind<span class="token operator">=</span><span class="token string">'cubic'</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token triple-quoted-string string">"""
+        Initialize the converter with calibration values.
+        
+        Parameters:
+        calibration_dict -- Dictionary with {flow_rate: voltage} pairs
+        interpolation_kind -- Type of spline interpolation ('linear', 'cubic', etc.)
+        """</span>
+        <span class="token comment"># Extract flow rates and voltages from the dictionary</span>
+        flow_rates <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span>calibration_dict<span class="token punctuation">.</span>keys<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        voltages <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span>calibration_dict<span class="token punctuation">.</span>values<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        
+        <span class="token comment"># Sort them by voltage to ensure proper interpolation</span>
+        sorted_pairs <span class="token operator">=</span> <span class="token builtin">sorted</span><span class="token punctuation">(</span><span class="token builtin">zip</span><span class="token punctuation">(</span>voltages<span class="token punctuation">,</span> flow_rates<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        voltages_sorted <span class="token operator">=</span> <span class="token punctuation">[</span>pair<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token keyword">for</span> pair <span class="token keyword">in</span> sorted_pairs<span class="token punctuation">]</span>
+        flow_rates_sorted <span class="token operator">=</span> <span class="token punctuation">[</span>pair<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token keyword">for</span> pair <span class="token keyword">in</span> sorted_pairs<span class="token punctuation">]</span>
+        
+        <span class="token comment"># Create the interpolation function</span>
+        <span class="token comment"># Note: we're creating voltage-&gt;flow interpolation since we'll be measuring voltage</span>
+        self<span class="token punctuation">.</span>interpolator <span class="token operator">=</span> interpolate<span class="token punctuation">.</span>interp1d<span class="token punctuation">(</span>
+            voltages_sorted<span class="token punctuation">,</span>
+            flow_rates_sorted<span class="token punctuation">,</span>
+            kind<span class="token operator">=</span>interpolation_kind<span class="token punctuation">,</span>
+            bounds_error<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span>  <span class="token comment"># Don't raise error for out-of-bounds values</span>
+            fill_value<span class="token operator">=</span><span class="token punctuation">(</span>flow_rates_sorted<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span> flow_rates_sorted<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment"># Extrapolate with edge values</span>
+        <span class="token punctuation">)</span>
+    
+    <span class="token keyword">def</span> <span class="token function">voltage_to_flow</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> voltage<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token triple-quoted-string string">"""
+        Convert voltage reading to flow rate using the calibration spline.
+        
+        Parameters:
+        voltage -- The voltage reading from the sensor (float)
+        
+        Returns:
+        flow_rate -- The interpolated flow rate
+        """</span>
+        <span class="token keyword">return</span> <span class="token builtin">float</span><span class="token punctuation">(</span>self<span class="token punctuation">.</span>interpolator<span class="token punctuation">(</span>voltage<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">class</span> <span class="token class-name">OmronD6FP</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">"""
+    Interface for Omron D6F-P flow sensor using ADS1115 for analog reading.
+    """</span>
+    
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> adc<span class="token punctuation">,</span> adc_channel<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span> calibration_dict<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token triple-quoted-string string">"""
+        Initialize the sensor interface.
+        
+        Parameters:
+        adc -- Instance of ADS1115 class
+        adc_channel -- The ADC channel the sensor is connected to (0-3)
+        calibration_dict -- Dictionary with {flow_rate: voltage} pairs for calibration
+        """</span>
+        self<span class="token punctuation">.</span>adc <span class="token operator">=</span> adc
+        self<span class="token punctuation">.</span>adc_channel <span class="token operator">=</span> adc_channel
+        
+        <span class="token comment"># Use default calibration if none provided</span>
+        <span class="token keyword">if</span> calibration_dict <span class="token keyword">is</span> <span class="token boolean">None</span><span class="token punctuation">:</span>
+            <span class="token comment"># Example calibration values for D6F-P - REPLACE WITH ACTUAL VALUES</span>
+            calibration_dict <span class="token operator">=</span> <span class="token punctuation">{</span>
+                <span class="token number">0.0</span><span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>    <span class="token comment"># 0 L/min -&gt; 1.0V</span>
+                <span class="token number">5.0</span><span class="token punctuation">:</span> <span class="token number">2.0</span><span class="token punctuation">,</span>    <span class="token comment"># 5 L/min -&gt; 2.0V</span>
+                <span class="token number">10.0</span><span class="token punctuation">:</span> <span class="token number">3.0</span><span class="token punctuation">,</span>   <span class="token comment"># 10 L/min -&gt; 3.0V</span>
+                <span class="token number">20.0</span><span class="token punctuation">:</span> <span class="token number">4.0</span><span class="token punctuation">,</span>   <span class="token comment"># 20 L/min -&gt; 4.0V</span>
+                <span class="token number">50.0</span><span class="token punctuation">:</span> <span class="token number">5.0</span>    <span class="token comment"># 50 L/min -&gt; 5.0V</span>
+            <span class="token punctuation">}</span>
+        
+        self<span class="token punctuation">.</span>converter <span class="token operator">=</span> FlowSensorConverter<span class="token punctuation">(</span>calibration_dict<span class="token punctuation">)</span>
+    
+    <span class="token keyword">def</span> <span class="token function">read_voltage</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token triple-quoted-string string">"""Read raw voltage from the sensor."""</span>
+        <span class="token keyword">return</span> self<span class="token punctuation">.</span>adc<span class="token punctuation">.</span>read_voltage<span class="token punctuation">(</span>self<span class="token punctuation">.</span>adc_channel<span class="token punctuation">)</span>
+    
+    <span class="token keyword">def</span> <span class="token function">read_flow</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token triple-quoted-string string">"""Read and convert sensor voltage to flow rate."""</span>
+        voltage <span class="token operator">=</span> self<span class="token punctuation">.</span>read_voltage<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> self<span class="token punctuation">.</span>converter<span class="token punctuation">.</span>voltage_to_flow<span class="token punctuation">(</span>voltage<span class="token punctuation">)</span>
+
+<span class="token comment"># Example usage</span>
+<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">"__main__"</span><span class="token punctuation">:</span>
+    <span class="token comment"># Initialize the ADC</span>
+    adc <span class="token operator">=</span> ADS1115<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    
+    <span class="token comment"># Example calibration for demonstration (replace with actual values from datasheet)</span>
+    <span class="token comment"># Format: {flow_rate (L/min): output_voltage (V)}</span>
+    d6f_calibration <span class="token operator">=</span> <span class="token punctuation">{</span>
+        <span class="token number">0.0</span><span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        <span class="token number">5.0</span><span class="token punctuation">:</span> <span class="token number">1.5</span><span class="token punctuation">,</span>
+        <span class="token number">10.0</span><span class="token punctuation">:</span> <span class="token number">2.0</span><span class="token punctuation">,</span>
+        <span class="token number">20.0</span><span class="token punctuation">:</span> <span class="token number">3.0</span><span class="token punctuation">,</span>
+        <span class="token number">30.0</span><span class="token punctuation">:</span> <span class="token number">4.0</span><span class="token punctuation">,</span>
+        <span class="token number">50.0</span><span class="token punctuation">:</span> <span class="token number">5.0</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment"># Initialize the flow sensor</span>
+    flow_sensor <span class="token operator">=</span> OmronD6FP<span class="token punctuation">(</span>adc<span class="token punctuation">,</span> adc_channel<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span> calibration_dict<span class="token operator">=</span>d6f_calibration<span class="token punctuation">)</span>
+    
+    <span class="token comment"># Optional: Initialize pressure sensor</span>
+    <span class="token keyword">try</span><span class="token punctuation">:</span>
+        pressure_sensor <span class="token operator">=</span> SDP810<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        pressure_available <span class="token operator">=</span> <span class="token boolean">True</span>
+    <span class="token keyword">except</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Pressure sensor not available"</span><span class="token punctuation">)</span>
+        pressure_available <span class="token operator">=</span> <span class="token boolean">False</span>
+    
+    <span class="token keyword">try</span><span class="token punctuation">:</span>
+        <span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
+            <span class="token comment"># Read flow rate</span>
+            flow_voltage <span class="token operator">=</span> flow_sensor<span class="token punctuation">.</span>read_voltage<span class="token punctuation">(</span><span class="token punctuation">)</span>
+            flow_rate <span class="token operator">=</span> flow_sensor<span class="token punctuation">.</span>read_flow<span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"Flow sensor voltage: </span><span class="token interpolation"><span class="token punctuation">{</span>flow_voltage<span class="token punctuation">:</span><span class="token format-spec">.3f</span><span class="token punctuation">}</span></span><span class="token string"> V"</span></span><span class="token punctuation">)</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"Flow rate: </span><span class="token interpolation"><span class="token punctuation">{</span>flow_rate<span class="token punctuation">:</span><span class="token format-spec">.2f</span><span class="token punctuation">}</span></span><span class="token string"> L/min"</span></span><span class="token punctuation">)</span>
+            
+            <span class="token comment"># Read pressure if available</span>
+            <span class="token keyword">if</span> pressure_available<span class="token punctuation">:</span>
+                pressure <span class="token operator">=</span> pressure_sensor<span class="token punctuation">.</span>read_pressure<span class="token punctuation">(</span><span class="token punctuation">)</span>
+                <span class="token keyword">if</span> pressure <span class="token keyword">is</span> <span class="token keyword">not</span> <span class="token boolean">None</span><span class="token punctuation">:</span>
+                    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"Differential Pressure: </span><span class="token interpolation"><span class="token punctuation">{</span>pressure<span class="token punctuation">:</span><span class="token format-spec">.2f</span><span class="token punctuation">}</span></span><span class="token string"> Pa"</span></span><span class="token punctuation">)</span>
+            
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"---"</span><span class="token punctuation">)</span>
+            time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>
+    <span class="token keyword">except</span> KeyboardInterrupt<span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Measurement stopped by user"</span><span class="token punctuation">)</span>
+        <span class="token comment"># Clean up</span>
+        <span class="token keyword">if</span> pressure_available<span class="token punctuation">:</span>
+            <span class="token keyword">try</span><span class="token punctuation">:</span>
+                pressure_sensor<span class="token punctuation">.</span>stop_measurement<span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token keyword">except</span><span class="token punctuation">:</span>
+                <span class="token keyword">pass</span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="mod-footer mod-ui"></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
 		<div class="graph-view-container">
 			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
 			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
 		</div>
-		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="00aa01-omron-d6f-p.html#Omron D6F-P"><div class="tree-item-contents heading-link" heading-name="Omron D6F-P"><span class="tree-item-title">Omron D6F-P</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="2"><a class="tree-link" href="00aa01-omron-d6f-p.html#Output_voltages"><div class="tree-item-contents heading-link" heading-name="Output voltages"><span class="tree-item-title">Output voltages</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="00aa01-omron-d6f-p.html#Main_characteristics"><div class="tree-item-contents heading-link" heading-name="Main characteristics"><span class="tree-item-title">Main characteristics</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="00aa01-omron-d6f-p.html#Datasheet"><div class="tree-item-contents heading-link" heading-name="Datasheet"><span class="tree-item-title">Datasheet</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="00aa01-omron-d6f-p.html#Omron D6F-P"><div class="tree-item-contents heading-link" heading-name="Omron D6F-P"><span class="tree-item-title">Omron D6F-P</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="2"><a class="tree-link" href="00aa01-omron-d6f-p.html#Output_voltages"><div class="tree-item-contents heading-link" heading-name="Output voltages"><span class="tree-item-title">Output voltages</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="00aa01-omron-d6f-p.html#Main_characteristics"><div class="tree-item-contents heading-link" heading-name="Main characteristics"><span class="tree-item-title">Main characteristics</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="00aa01-omron-d6f-p.html#Datasheet"><div class="tree-item-contents heading-link" heading-name="Datasheet"><span class="tree-item-title">Datasheet</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="00aa01-omron-d6f-p.html#Minimal_code_example"><div class="tree-item-contents heading-link" heading-name="Minimal code example"><span class="tree-item-title">Minimal code example</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>

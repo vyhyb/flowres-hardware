@@ -13,6 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "01aa Digital differential pressure sensors.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01aa Digital differential pressure sensors"
+            }
+          },
+          {
+            "id": "61be52705ee6cb9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01aa02 Sensirion SDP810-125PA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01aa02 Sensirion SDP810-125PA"
+            }
+          },
+          {
+            "id": "63a2aac1d82d3eca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04aa Analog to digital conversion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04aa Analog to digital conversion"
+            }
+          },
+          {
+            "id": "706cf3b6cd76b9ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04aa01 ADS1115 chip (I2C).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04aa01 ADS1115 chip (I2C)"
+            }
+          },
+          {
+            "id": "5769dbec854516c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "00aa01 Omron D6F-P.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +77,8 @@
               "title": "00aa01 Omron D6F-P"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -94,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Navigation.md",
+                "file": "00aa01 Omron D6F-P.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 00 Navigation"
+              "title": "Backlinks for 00aa01 Omron D6F-P"
             }
           },
           {
@@ -155,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,14 +224,14 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "companion:Toggle completion": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "aeb7bf82443b1c6f",
+  "active": "5769dbec854516c9",
   "lastOpenFiles": [
     "00aa02 Omron D6F-A3.md",
     "index.md",
+    "04aa01 ADS1115 chip (I2C).md",
     "99_Navigation.md",
     "04ab RaspberryPi GPIO header utilization.md",
     "04aa Analog to digital conversion.md",
@@ -183,13 +239,18 @@
     "03aa Electromagnetic valve.md",
     "02ac Water tank.md",
     "02ab DC ventilator.md",
-    "02aa Compressor.md",
     "01aa02 Sensirion SDP810-125PA.md",
     "01aa01 Sensirion SDP610-25PA.md",
     "01aa Digital differential pressure sensors.md",
     "00ab Digital flow sensors.md",
-    "Templates/Basic.md",
+    "00aa Analog flow sensors.md",
     "00aa01 Omron D6F-P.md",
+    "Attachments/datasheets/SDP800.pdf",
+    "Attachments/01aa02 Sensirion SDP810-125PA.png",
+    "Attachments/01aa01 Sensirion SDP610-25PA.png",
+    "Attachments/datasheets/SDP600.pdf",
+    "02aa Compressor.md",
+    "Templates/Basic.md",
     "Attachments/00aa01 Omron D6F-P picture-1.png",
     "Attachments/00aa01 Omron D6F-P picture.png",
     "Attachments/00aa02 Omron D6F-A3 characteristics.png",
@@ -198,7 +259,6 @@
     "Attachments/Omron D6F-P output voltages.png",
     "Attachments/datasheets/en_d6f_series-1128136.pdf",
     "Attachments/datasheets",
-    "00aa Analog flow sensors.md",
     "Templates",
     "Attachments/model_v1.png",
     "docs/lib/search-index.json",
@@ -206,9 +266,6 @@
     "docs/lib/styles/main-styles.css",
     "docs/lib/styles/global-variable-styles.css",
     "docs/lib/styles/obsidian.css",
-    "docs/lib/styles",
-    "docs/lib/scripts/graph-data.js",
-    "docs/lib/media/favicon.png",
-    "docs/lib/media/6155340132a851f6089e.svg"
+    "docs/lib/media/favicon.png"
   ]
 }
