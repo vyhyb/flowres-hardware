@@ -5,6 +5,9 @@ tags: []
 ---
 
 # ADS1115 chip (I2C)
+![[Attachments/04aa01 ADS1115 chip (I2C).png|300]]
+
+Available for about €8 ([dratek](https://dratek.cz/arduino/2955-i2c-ad-prevodnik-ads1115-16-bit-adc-4-kanaly-s-programovatelnym-zesilenim.html))
 
 ## Minimal code example
 
