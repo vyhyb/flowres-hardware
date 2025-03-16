@@ -2,8 +2,6 @@
 
 This vault serves as a knowledge base for the hardware of the mostly printed flow resistivity measurement setup. The outline of the vault is given in [Navigation](00_Navigation.md).
 
-$$\sqrt{\frac{dfs}{fds}dfs^2 \mu}$$
-
 ![model_v1_png](Attachments/model_v1.png)
 
 
