@@ -6,6 +6,8 @@ tags: []
 
 # Omron D6F-P
 
+![[Attachments/00aa01 Omron D6F-P picture-1.png|300]]
+
 An analog [[00aa Analog flow sensors|flow sensor]].
 
 There are two main variants:
