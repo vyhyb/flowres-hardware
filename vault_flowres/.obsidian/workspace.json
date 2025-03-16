@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00aa01 Omron D6F-P.md",
+                "file": "00aa02 Omron D6F-A3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00aa01 Omron D6F-P"
+              "title": "00aa02 Omron D6F-A3"
             }
           }
         ]
@@ -174,13 +174,14 @@
   },
   "active": "aeb7bf82443b1c6f",
   "lastOpenFiles": [
+    "Attachments/00aa02 Omron D6F-A3 output voltages.png",
+    "00aa01 Omron D6F-P.md",
+    "00aa02 Omron D6F-A3.md",
     "Attachments/Omron D6F-P characteristics.png",
     "Attachments/Omron D6F-P output voltages.png",
-    "00aa01 Omron D6F-P.md",
     "Attachments/datasheets/en_d6f_series-1128136.pdf",
     "Attachments/datasheets",
     "00aa Analog flow sensors.md",
-    "00aa02 Omron D6F-A3.md",
     "Templates/Basic.md",
     "Templates",
     "99_Navigation.md",
