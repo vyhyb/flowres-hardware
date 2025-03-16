@@ -174,10 +174,12 @@
   },
   "active": "aeb7bf82443b1c6f",
   "lastOpenFiles": [
+    "Attachments/Omron D6F-P characteristics.png",
+    "Attachments/Omron D6F-P output voltages.png",
+    "00aa01 Omron D6F-P.md",
     "Attachments/datasheets/en_d6f_series-1128136.pdf",
     "Attachments/datasheets",
     "00aa Analog flow sensors.md",
-    "00aa01 Omron D6F-P.md",
     "00aa02 Omron D6F-A3.md",
     "Templates/Basic.md",
     "Templates",
@@ -203,7 +205,6 @@
     "docs/lib/styles",
     "docs/lib/scripts/graph-data.js",
     "docs/lib/media/favicon.png",
-    "docs/lib/scripts/minisearch.js",
     "docs/lib/media/6155340132a851f6089e.svg"
   ]
 }
