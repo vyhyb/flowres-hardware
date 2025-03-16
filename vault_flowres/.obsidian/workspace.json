@@ -167,11 +167,18 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "webpage-html-export:Export Vault to HTML": false,
+      "companion:Toggle completion": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "aeb7bf82443b1c6f",
   "lastOpenFiles": [
+    "00aa02 Omron D6F-A3.md",
+    "00aa Analog flow sensors.md",
+    "Templates/Basic.md",
+    "00aa01 Omron D6F-P.md",
+    "Templates",
     "99_Navigation.md",
     "index.md",
     "04ab RaspberryPi GPIO header utilization.md",
@@ -185,7 +192,6 @@
     "01aa01 Sensirion SDP610-25PA.md",
     "01aa Digital differential pressure sensors.md",
     "00ab Digital flow sensors.md",
-    "00aa Analog flow sensors.md",
     "Attachments/model_v1.png",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
@@ -197,7 +203,6 @@
     "docs/lib/media/favicon.png",
     "docs/lib/scripts/minisearch.js",
     "docs/lib/scripts/pixi.js",
-    "docs/lib/scripts/tinycolor.js",
     "docs/lib/media/6155340132a851f6089e.svg"
   ]
 }
