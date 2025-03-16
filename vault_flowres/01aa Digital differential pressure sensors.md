@@ -1,3 +1,8 @@
+---
+aliases:
+  - digital differential pressure sensor
+---
+
 # Digital differential pressure sensors
 
 - [[01aa01 Sensirion SDP610-25PA]]
