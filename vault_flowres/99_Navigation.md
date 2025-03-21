@@ -26,5 +26,6 @@
 - [[04ab RaspberryPi GPIO header utilization]]
 
 ## 3D printed parts
-
+[[05aa Measurement cell]]
+[[05ab DC ventilator housing]]
 - 
